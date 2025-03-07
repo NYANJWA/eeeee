@@ -1,0 +1,59 @@
+/logo.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEKACoA Logo</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+        <!-- Circle background -->
+        <circle cx="200" cy="200" r="180" fill="#f5f5f5" stroke="#006400" stroke-width="8"/>
+        
+        <!-- Inner circle -->
+        <circle cx="200" cy="200" r="140" fill="#ffffff" stroke="#006400" stroke-width="3"/>
+        
+        <!-- Organization name on top curve -->
+        <path id="top-curve" d="M 70,120 A 165,165 0 0,1 330,120" fill="none"/>
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#006400">
+            <textPath href="#top-curve" startOffset="50%">
+                <tspan text-anchor="middle">WEST KANYAMKAGO COMRADES ASSOCIATION</tspan>
+            </textPath>
+        </text>
+        
+        <!-- Joining hands symbol -->
+        <g transform="translate(200, 195)">
+            <!-- Left hand -->
+            <path d="M0,-45 C10,-40 20,-35 25,-25 C30,-30 35,-35 40,-25 C45,-20 45,-15 40,-10 C50,-5 60,-5 55,5 C50,15 45,20 35,15 C25,10 15,5 10,0 C5,-5 0,-10 -5,-5 C-10,0 -10,5 -5,10 C0,15 5,20 0,25" 
+                  fill="#8FBC8F" stroke="#006400" stroke-width="2"/>
+            
+            <!-- Right hand -->
+            <path d="M-60,35 C-52,40 -47,45 -37,40 C-42,45 -37,55 -27,50 C-22,45 -17,40 -12,45 C-2,50 3,55 -7,60 C-17,65 -27,60 -32,55 C-37,50 -47,45 -52,40 C-57,35 -62,30 -67,35 C-72,40 -67,45 -62,50" 
+                  fill="#8FBC8F" stroke="#006400" stroke-width="2"/>
+        </g>
+        
+        <!-- WEKACoA text -->
+        <text x="200" y="130" font-family="Arial" font-size="42" font-weight="bold" text-anchor="middle" fill="#006400">
+            WEKACoA
+        </text>
+        
+        <!-- Green leaves -->
+        <g transform="translate(200, 200)">
+            <path d="M-85,10 C-75,-10 -55,-20 -35,-15 C-15,-10 -5,0 -15,20 C-25,40 -45,45 -65,35 C-85,25 -95,30 -85,10Z" 
+                  fill="#2E8B57" stroke="#006400" stroke-width="1"/>
+            <path d="M85,10 C75,-10 55,-20 35,-15 C15,-10 5,0 15,20 C25,40 45,45 65,35 C85,25 95,30 85,10Z" 
+                  fill="#2E8B57" stroke="#006400" stroke-width="1"/>
+            <path d="M-35,-15 C-10,-5 10,-5 35,-15" fill="none" stroke="#006400" stroke-width="2"/>
+        </g>
+        
+        <!-- Motto at bottom -->
+        <path id="bottom-curve" d="M 85,275 A 140,140 0 0,0 315,275" fill="none"/>
+        <text font-family="Arial" font-size="18" font-style="italic" font-weight="bold" fill="#006400">
+            <textPath href="#bottom-curve" startOffset="50%">
+                <tspan text-anchor="middle">Comrade for Comrade</tspan>
+            </textPath>
+        </text>
+    </svg>
+</body>
+</html>
